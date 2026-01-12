@@ -136,6 +136,48 @@
             font-size: 1.2rem;
             font-weight: 500;
             opacity: 0.8;
+            margin-bottom: 30px;
+        }
+
+        /* ===== BOUTONS HERO ===== */
+        .btn-hero {
+            display: inline-block;
+            padding: 12px 30px;
+            border-radius: 50px; /* Bien rond */
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            border: 2px solid;
+            margin-top: 10px;
+        }
+
+        /* Style bouton gauche (sur fond blanc) */
+        .btn-left {
+            color: #1d1d1f;
+            border-color: #1d1d1f;
+            background: transparent;
+        }
+
+        .btn-left:hover {
+            background-color: #1d1d1f;
+            color: #ffffff;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        /* Style bouton droit (sur fond noir) */
+        .btn-right {
+            color: #ffffff;
+            border-color: #ffffff;
+            background: transparent;
+        }
+
+        .btn-right:hover {
+            background-color: #ffffff;
+            color: #1d1d1f;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(255,255,255,0.2);
         }
 
         /* L'AVATAR */
