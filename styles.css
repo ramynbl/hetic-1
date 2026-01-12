@@ -14,6 +14,16 @@
             line-height: 1.6;
         }
 
+        /* Outfit pour les textes */
+        p, .nav-links a, .project-link, label, input, textarea, .footer-section p {
+            font-family: "Outfit", sans-serif;
+        }
+
+        /* Lexend pour les titres */
+        h1, h2, h3, h4, h5, h6, .logo {
+            font-family: "Lexend", sans-serif;
+        }
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -342,7 +352,6 @@
             gap: 40px;
             margin-top: 60px;
             flex-direction: column;
-            /* TODO MARDI CSS : Vérifier la structure (colonnes empilées) */
         }
 
         .project-card {
@@ -356,7 +365,8 @@
         }
 
         .project-card:hover {
-            /* TODO MARDI CSS : Ajouter transform: translateY(-4px); */
+            transform: scale(1.02);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
         }
 
         .project-card:nth-child(2) {
