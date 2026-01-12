@@ -235,12 +235,12 @@
 
         .marquee-container::before {
             left: 0;
-            background: linear-gradient(to right, #1d1d1f, transparent);
+            background: linear-gradient(to right, #f1ebe2, transparent);
         }
 
         .marquee-container::after {
             right: 0;
-            background: linear-gradient(to left, #1d1d1f, transparent);
+            background: linear-gradient(to left, #f1ebe2, transparent);
         }
 
         .marquee-content {
