@@ -474,7 +474,8 @@
 
         .form-group input:focus,
         .form-group textarea:focus {
-            /* TODO MARDI CSS : Ajouter outline: none; border-color: #0071e3; */
+           outline: none;
+           border-color: #0071e3;
         }
 
         .form-group textarea {
